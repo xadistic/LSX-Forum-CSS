@@ -1,0 +1,96 @@
+.logo {
+	content: url(//i.pi.gy/Nk5L.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+}
+/* EDM */
+#posts [uid="158654"] .post_user [data-type="post_userbar"] img {
+	content: url(//i.pi.gy/1DLo.png);
+}
+
+/* Infinity */
+#posts [uid="612932"] .post_user [data-type="post_userbar"] img {
+	content: url(//i.pi.gy/do1q.png);
+}
+
+/* Friendly */
+#posts [uid="179065"] .post_user [data-type="post_userbar"] img {
+	content: url(//i.pi.gy/4qjP.png);
+}
+img[alt="Anime"] {
+    content:url("http://i.pi.gy/RJgb.png");
+}
+
+/* Gantai */
+#posts [uid="1216934"] .post_user [data-type="post_userbar"] img {
+	content: url(//i.pi.gy/8DJq.png);
+}
+
+/* Kyle */
+#posts [uid="37650"] .post_user [data-type="post_userbar"] img {
+	content: url(//i.pi.gy/O8xG.png);
+}
+
+img[alt="Elite"] {
+    content:url("http://i.pi.gy/GAdo.png");
+}
+
+img[alt="AW3SOM3"] {
+  	content:url("http://i.pi.gy/Aqjo.png");
+}
+
+img[alt="Inception"] {
+  	content:url("http://i.pi.gy/nrwk.png");
+}
+
+
+
+::selection { background: #000000; }
+::-moz-selection { background: #000000; }
+::-webkit-selection { background: #000000; }
+
+@-webkit-keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+@-moz-keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+@-ms-keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+@-o-keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+@keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+
+#header {
+    background: url("http://i.pi.gy/Nk22.png");
+-moz-animation: bgscroll 70s infinite linear;
+-ms-animation: bgscroll 70s infinite linear;
+-o-animation: bgscroll 70s infinite linear;
+-webkit-animation: bgscroll 70s infinite linear;
+}
+
+
+#posts [uid="528777"] .post_user [data-type="post_userbar"] img {
+	content: url(//i.pi.gy/OxKJ.png);
+}
+
+/*
+#posts [uid="528777"] .post_user [data-type="post_stars"] img {
+	content: url(//i.pi.gy/k9v8.png);
+}
+*/
