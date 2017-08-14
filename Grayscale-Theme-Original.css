@@ -1,0 +1,98 @@
+/*
+Grayscale CSS for LeakForums made by A2N 
+
+*/
+/* Header */ 
+.logo {
+	content: url(//i.pi.gy/Nk5L.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+}
+
+img[alt="*"] { -webkit-filter: grayscale(100%); 
+}
+.post_user [data-type="post_avatar"] img, .profile_avatar img {
+ -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+#posts .post_user [data-type="profile_link"] a span {
+    color: #808080 !important;
+    text-shadow: 2px 2px #0c0b0b !important;
+}
+.profile_avatar+div img:first-child {
+  	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.profile_avatar+div img:not(:first-child) {	
+  	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.profile_username span { 
+    color: #808080 !important;
+    text-shadow: 2px 2px #0c0b0b !important;
+}
+.aw { -webkit-filter: grayscale(100%); }
+.overflow { -webkit-filter: grayscale(100%); }
+.smalltext { color: #BFBFBF !important; }
+.high_warning { color: #BFBFBF !important; }
+.float_right { -webkit-filter: grayscale(100%); }
+/*.trow1 { -webkit-filter: grayscale(100%); }
+.trow2 { -webkit-filter: grayscale(100%); } */
+
+.post_userbar img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.post__message { -webkit-filter: grayscale(100%); }
+.post__message:hover { -webkit-filter: grayscale(0%); 
+    
+}
+
+::selection { background: #000000; }
+::-moz-selection { background: #000000; }
+::-webkit-selection { background: #000000; }
+
+@-webkit-keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+@-moz-keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+@-ms-keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+@-o-keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+@keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+
+#header {
+    background: url("http://i.pi.gy/Nk22.png");
+-moz-animation: bgscroll 70s infinite linear;
+-ms-animation: bgscroll 70s infinite linear;
+-o-animation: bgscroll 70s infinite linear;
+-webkit-animation: bgscroll 70s infinite linear;
+}
+
+/* A2N's stuff stuff 
+#posts [uid="528777"] .post_user [data-type="post_userbar"] img {
+	content: url(//i.pi.gy/ea8N.png);
+}
+*/
+#posts [uid="528777"] .post_user [data-type="post_stars"] img {
+	content: url(//i.pi.gy/k9v8.png);
+}
